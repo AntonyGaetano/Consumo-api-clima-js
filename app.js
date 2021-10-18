@@ -1,3 +1,5 @@
+
+
 const api = {
     key: "64ed82577ced7f69cb1687f0ce536131",
     base: "https://api.openweathermap.org/data/2.5/",
@@ -33,7 +35,11 @@ window.addEventListener('load', () => {
     function showError(error) {
         alert(`erro: ${error.message}`);
     }
+
+ 
 })
+
+
 
 function coordResults(lat, long) {
     fetch(`${api.base}weather?lat=${lat}&lon=${long}&lang=${api.lang}&units=${api.units}&APPID=${api.key}`)
