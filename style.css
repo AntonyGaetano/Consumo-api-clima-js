@@ -1,4 +1,6 @@
-*{padding:0; margin:0; box-sizing: border-box;}
+*{padding:0; margin:0; box-sizing: border-boxb;}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 body{
     height: 100vh;
@@ -6,20 +8,62 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(25, 160, 250);
+    font-family: 'Arvo', serif;
 }
 
-.box{
-    width: 80%;
+section{
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    background: rgba( 255, 255, 255, 0.25 );
+    background: rgba( 80, 227, 194, 0.4 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 6.5px );
-    -webkit-backdrop-filter: blur( 6.5px );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    padding: 1rem 0;
 }
+
+.box{
+    width: 100%;
+    gap: 0.6rem
+}
+
+.card-footer{
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+}
+
+#city{
+    font-size: 32px;
+}
+
+#date{
+    font-size: 16px;
+}
+
+
+/* .container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(244, 208, 63, 0.2);
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather{
+    font-size: 32px;
+}
+
+.low-high {
+    font-size: 22px;
+} */
