@@ -61,6 +61,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 #box-img > img{
@@ -71,24 +72,10 @@ header{
     font-size: 4.5rem;
 }
 
-/* 
-.container-temp{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(244, 208, 63, 0.2);
-    box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
-    cursor: pointer;
-
-    font-size: 100px;
-    font-weight: 900;
-    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+#descricao{
+    font-size: 26px;
 }
-
-.weather{
-    font-size: 32px;
-}
-
-.low-high {
+#max-min {
     font-size: 22px;
-} 
-*/
+    margin: 0.7rem;
+}
