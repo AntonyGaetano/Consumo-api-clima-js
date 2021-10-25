@@ -10,7 +10,7 @@ body{
     align-items: center;
     background-color: #fd9139;
     font-family: 'Arvo', serif;
-    color:white;
+    color:black;
 }
 
 .container{
@@ -21,7 +21,7 @@ body{
     align-items: center;
     border-radius: 10px;
     border: 1px solid;
-    background-color: #f59a4f;
+    background-color: white;
     box-shadow: black;
     text-align: center;
     padding: 1.5rem 0;
