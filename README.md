@@ -6,12 +6,12 @@
 - Por meio desse projeto pode-se ver os dados de mais de 200 cidades pelo o Brasil inteiro!
 - Pode-se o máximo e o mínimo do dia atual!
 
-### Loyout para notebook e desktop
+### Layout para notebook e desktop
 
 <img src="gif/api_clima_telanot.gif">
 
 
-### Loyout para celulares e tablets
+### Layout para celulares e tablets
 <img src="gif//api_clima_telacll.gif">
 
 🚀Tecnologias usadas:
